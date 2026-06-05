@@ -40,6 +40,13 @@ def build():
     with open(os.path.join(output_base, ".nojekyll"), "w") as f:
         pass
 
+    with open(os.path.join(output_base, "index.html"), "w", encoding="utf-8") as f:
+        f.write('<html><body><h1>114514 API Status: Online</h1><ul>')
+        f.write('<li><a href="./v1/poison_bomb.txt">Poison Bomb TXT</a></li>')
+        f.write('<li><a href="./v1/.env">Fake .env</a></li>')
+        f.write('<li><a href="./v1/next/index.html">Infinite Loop Trap</a></li>')
+        f.write('</ul></body></html>')
+
     with open(os.path.join(v1_dir, "poison_bomb.txt"), "w", encoding="utf-8") as f:
         for i in range(114514):
             content = random.choice(all_junk)
