@@ -35,3 +35,10 @@ Insert the following hidden HTML into your website to redirect malicious bots to
 
 ## License
 MIT License
+
+## Usage & Disclaimer
+
+- GitHub Pages Limitations: The distribution of large files must remain within the scope of the GitHub Pages Terms of Service, including bandwidth limits. Please ensure your usage does not violate these policies.
+- Ethical Considerations: The appropriateness of using prompt injection text and anti-scraper techniques should be judged by the user based on their specific environment, local laws, and objectives.
+- Use at Your Own Risk: The author assumes no responsibility for any issues arising from the use of this tool, including but not limited to GitHub account suspension, service disruptions, or any legal disputes. 
+- Technical Notice: This project is intended for educational and defensive research purposes only.
